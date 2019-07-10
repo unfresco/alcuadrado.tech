@@ -1,0 +1,14 @@
+$color_brand1: #1F1147;
+$color_brand2: #1F93FF;
+$color_brand2_light: rgb(117, 186, 250);
+$color_brand2_grey1: rgb(106, 108, 109);
+$color_brand2_grey2: rgb(153, 156, 158);
+
+.brand-gradient {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1f93ff+0,ffffff+50,1f93ff+100 */
+    background: #1f93ff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #1f93ff 0%, #ffffff 50%, #1f93ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #1f93ff 0%,#ffffff 50%,#1f93ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #1f93ff 0%,#ffffff 50%,#1f93ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f93ff', endColorstr='#1f93ff',GradientType=1 ); /* IE6-9 */
+}

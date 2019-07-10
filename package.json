@@ -1,0 +1,28 @@
+{
+  "name": "alcuadrado.tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gulp": "^4.0.2",
+    "jquery-parallax.js": "^1.5.0",
+    "paroller.js": "^1.4.6"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://unfresco@github.com/al2blockchain/alcuadrado.tech.git"
+  },
+  "author": "Adrián Ortiz Arandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/al2blockchain/alcuadrado.tech/issues"
+  },
+  "homepage": "https://github.com/al2blockchain/alcuadrado.tech#readme"
+}

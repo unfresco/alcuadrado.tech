@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:300,400,700&display=swap");
+.brand-gradient { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1f93ff+0,ffffff+50,1f93ff+100 */ background: #1f93ff; /* Old browsers */ background: -moz-linear-gradient(left, #1f93ff 0%, #ffffff 50%, #1f93ff 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(left, #1f93ff 0%, #ffffff 50%, #1f93ff 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to right, #1f93ff 0%, #ffffff 50%, #1f93ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f93ff', endColorstr='#1f93ff',GradientType=1 ); /* IE6-9 */ }
+
+* { font-family: 'Barlow', sans-serif; }
+
+img { max-width: 100%; height: auto; }
+
+.container { transition: all 250ms; }
+
+section { padding: 3em 0 2em; }
+
+h2 { font-size: 2em; line-height: 1.2; font-weight: 300; padding-bottom: 1em; margin: 0; transition: all 250ms; }
+
+@media only screen and (min-width: 768px) { .lang-es h2 { font-size: 2.5em; }
+  .lang-en h2 { font-size: 3em; } }
+
+@media only screen and (min-width: 992px) { .lang-es h2 { font-size: 3.2em; }
+  .lang-en h2 { font-size: 3.5em; } }
+
+h3 { font-size: 3em; text-align: center; font-weight: 300; line-height: 1.2; padding-top: 1em; padding-bottom: 1em; color: #6a6c6d; }
+
+h4 { font-size: 1.4em; text-transform: uppercase; color: #6a6c6d; font-weight: 700; text-align: center; margin-bottom: 0; }
+
+p { font-size: 1.2em; color: #6a6c6d; line-height: 1.2; text-align: center; }
+
+.align-items-stretch .wrapper { background-color: rgba(255, 255, 255, 0.93); padding: 1.2em 15px 1em; border-top: solid #1F93FF 3px; width: 100%; }
+
+body { background: transparent url("../images/design/bg-light-fx.png") no-repeat center -35px; background-attachment: fixed; }
+
+@media only screen and (max-width: 575px) { body { background-size: 1400px; } }
+
+.branding .row { min-height: 70px; transition: all 250ms; }
+
+@media only screen and (min-width: 576px) { .branding .row { min-height: 100px; } }
+
+.branding .logo img { max-width: 100px; }
+
+.branding .claim { text-align: right; font-weight: 700; font-size: 0.85em; line-height: 1.2; }
+
+.hero { padding: 0; background: url("../images/design/bg-dark.png") no-repeat center -35px; background-attachment: fixed; text-align: center; }
+
+@media only screen and (max-width: 575px) { .hero { background-size: 1400px; } }
+
+@media only screen and (min-width: 768px) { .hero { font-size: 1.2em; } }
+
+.hero .row { min-height: 400px; }
+
+.hero h2 { padding: 0; color: #fff; }
+
+.hero p { color: #fff; }
+
+.services .icon, .services-extra .icon { font-size: 4em; text-align: center; color: #1F93FF; padding-bottom: 0.2em; }
+
+.services-extra { padding-top: 1.5em; font-size: 0.8em; }
+
+.services-extra .icon { color: #6a6c6d; }
+
+.team > .container-fluid { background: #1F93FF url("../images/design/bg-light.png") no-repeat center -35px; background-attachment: fixed; min-height: 300px; }
+
+@media only screen and (max-width: 575px) { .team > .container-fluid { background-size: 1400px; } }
+
+.team > .container-fluid .team-list { margin-left: 30px; margin-right: 30px; margin-bottom: 2em; }
+
+@media only screen and (min-width: 992px) { .team > .container-fluid .team-list { margin-left: auto; margin-right: auto; max-width: 1200px; } }
+
+.team > .container-fluid h3 { color: white; }
+
+.team > .container-fluid h4 { padding-top: 1em; font-size: 1em; text-transform: none; color: #1F1147; }
+
+.team > .container-fluid p { font-size: 1em; color: #1F1147; }
+
+.team-image { border-radius: 50%; overflow: hidden; border: 3px solid white; }
+
+.contact-content { font-size: 2em; }
+
+.contact-content span { display: inline-block; padding: 0 30px; color: #999c9e; }
+
+/*# sourceMappingURL=styles.css.map */
