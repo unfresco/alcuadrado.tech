@@ -23,7 +23,7 @@ h2 {
     transition: all 250ms;
     @include breakpoint(md) {
         .lang-es & {
-            font-size: 2.5em;
+            font-size: 2.3em;
         }
         .lang-en & {
             font-size: 3em;
@@ -33,7 +33,7 @@ h2 {
     @include breakpoint(lg) {
         
         .lang-es & {
-            font-size: 3.2em;
+            font-size: 2.9em;
         }
         .lang-en & {
             font-size: 3.5em;
